@@ -23,7 +23,7 @@ D1_E=13
 D1_D=0
 D1_L4=[51971]Project Closed.
 D2=01-04-2022
-D2_L=14
+D2_L=15
 D2_L1=[30313]Project Opened.
 D2_L2=[30438]Started Editing.
 D2_L3=[31154]Stopped Editing.
@@ -40,6 +40,7 @@ D2_L11=[35954]Stopped Editing.
 D2_L12=[36777]Started Editing.
 D2_L13=[37745]Stopped Editing.
 D2_L14=[40906]Started Editing.
+D2_L15=[42163]Stopped Editing.
 
 [Opened Files]
 1=ENTRADA_CLIENTE.c
