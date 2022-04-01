@@ -13,7 +13,7 @@ Stack size: 31
 
 Lines Stmts  %   Files
 ----- ----- ---  -----
- 1124   727  30  ENTRADA_CLIENTE.c
+ 1125   727  30  ENTRADA_CLIENTE.c
   122     0   0  Plantilla_Inicio.c
   843     0   0  C:\Program Files (x86)\PICC\Devices\18F4680.h
   305    54   2  LCD_4x20.c
@@ -48,7 +48,7 @@ Lines Stmts  %   Files
   128     0   0  tcpip\arptsk.h
   244    53   2  tcpip\arp.c
 ----- -----
-14852  2439 Total
+14853  2439 Total
 
 Page ROM  %  RAM    Vol Diff  Functions:
 ---- --- --- ---    --- ----  ----------
@@ -287,7 +287,7 @@ Page ROM  %  RAM    Vol Diff  Functions:
 Program metrics:
     Functions               122
     Statements              2439
-    Comments                7995
+    Comments                7996
     Volume (V)              194440
     Difficulty (D)          650.5
     Effort to implement (E) 126488260

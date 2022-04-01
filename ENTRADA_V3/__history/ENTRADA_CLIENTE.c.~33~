@@ -810,7 +810,6 @@ void ticket(){//U1PRINTER //HHMMSSFFFFFFFFZ
    fprintf(U1PRINTER,"!");
    fputc(0, U1PRINTER);
    /////
-   //barra1();
    barra1();
    fprintf(U1PRINTER,"\x0A");//limpia la justificación
    fprintf(U1PRINTER,"TARIFA:$19.00/100 Hora o Fraccion              \x0A");

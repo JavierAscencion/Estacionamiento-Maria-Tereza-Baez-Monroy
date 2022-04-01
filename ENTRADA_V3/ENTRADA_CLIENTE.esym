@@ -1,8 +1,7 @@
-D G "EXAMPLE_TCP_PORT" 0 40 " (int16)7654"
-D G "__PCH__" 0 113 ""5.025""
-D G "__DEVICE__" 0 113 "4680"
-D G "__DATE__" 0 113 ""01-abr.-22""
-D G "__TIME__" 0 113 ""11:37:45"" "2019/01/23 Se cambio la razon social"
+D G "__PCH__" 0 1125 ""5.025""
+D G "__DEVICE__" 0 1125 "4680"
+D G "__DATE__" 0 1125 ""01-abr.-22""
+D G "__TIME__" 0 1125 ""11:49:44"" "2019/01/23 Se cambio la razon social"
 c L "set_tris_a" 2 1 6 "FUNCTION"
 v L "value" 2 43 "int8" `54 
 f B "set_tris_a" 2 43 "void(int8 value)" `53 
@@ -6065,6 +6064,7 @@ C L "ticket" 0 776 1 "FUNCTION"
 C L "ticket" 0 776 1 "FUNCTION"
 C L "ticket" 0 776 1 "FUNCTION"
 C L "ticket" 0 776 1 "FUNCTION"
+C L "ticket" 0 776 1 "FUNCTION"
 C L "ticket" 0 776 4 "FUNCTION"
 C L "ticket" 0 776 1 "FUNCTION"
 C L "ticket" 0 776 1 "FUNCTION"
@@ -6076,12 +6076,12 @@ C L "ticket" 0 776 1 "FUNCTION"
 C L "ticket" 0 776 1 "FUNCTION"
 C L "ticket" 0 776 1 "FUNCTION"
 C L "ticket" 0 776 2 "FUNCTION"
-F G "LF" 0 907 "void()" `2194 
-F G "CR" 0 911 "void()" `2193 
+F G "LF" 0 908 "void()" `2194 
+F G "CR" 0 912 "void()" `2193 
 C L "CR" 0 776 1 "FUNCTION"
-F G "barra1" 0 915 "void()" `2191  "sprintf(con_barra,"%08Ld%02d%02d%02d%02d%02d%02d",folio,yr,month,day,hrs,min,sec);//"
+F G "barra1" 0 916 "void()" `2191  "sprintf(con_barra,"%08Ld%02d%02d%02d%02d%02d%02d",folio,yr,month,day,hrs,min,sec);//"
 C L "barra1" 0 776 4 "FUNCTION"
-V L "size_bar" 0 922 "int8" `2372 
+V L "size_bar" 0 923 "int8" `2372 
 C L "barra1" 0 776 4 "FUNCTION"
 C L "barra1" 0 776 2 "FUNCTION"
 C L "barra1" 0 776 1 "FUNCTION"
@@ -6093,8 +6093,8 @@ C L "barra1" 0 776 1 "FUNCTION"
 C L "barra1" 0 776 1 "FUNCTION"
 C L "barra1" 0 776 1 "FUNCTION"
 C L "barra1" 0 776 2 "FUNCTION"
-F G "barra2" 0 954 "void()" `2192 
-V L "size_bar" 0 955 "int8" `2377 
+F G "barra2" 0 955 "void()" `2192 
+V L "size_bar" 0 956 "int8" `2377 
 C L "barra2" 0 776 3 "FUNCTION"
 C L "barra2" 0 776 1 "FUNCTION"
 C L "barra2" 0 776 2 "FUNCTION"
@@ -6103,12 +6103,12 @@ C L "barra2" 0 776 1 "FUNCTION"
 C L "barra2" 0 776 2 "FUNCTION"
 C L "barra2" 0 776 1 "FUNCTION"
 C L "barra2" 0 776 2 "FUNCTION"
-F G "encri" 0 981 "void()" `2190 
-V L "tem" 0 982 "int8" `2382  "fprintf(U1PRINTER,"con_barra:%Lu\r\n",strlen(con_barra));"
+F G "encri" 0 982 "void()" `2190 
+V L "tem" 0 983 "int8" `2382  "fprintf(U1PRINTER,"con_barra:%Lu\r\n",strlen(con_barra));"
 C L "encri" 0 776 1 "FUNCTION"
-F G "llaves" 0 1000 "void()" `2197 
-V L "tem" 0 1001 "int8" `2383 
-V L "texto" 0 1002 "int8[12]" `2384  "llaves////////////"
+F G "llaves" 0 1001 "void()" `2197 
+V L "tem" 0 1002 "int8" `2383 
+V L "texto" 0 1003 "int8[12]" `2384  "llaves////////////"
 C L "llaves" 0 776 1 "FUNCTION"
 C L "llaves" 0 776 1 "FUNCTION"
 C L "llaves" 0 776 1 "FUNCTION"
@@ -6116,14 +6116,14 @@ C L "llaves" 0 776 1 "FUNCTION"
 C L "llaves" 0 776 1 "FUNCTION"
 C L "llaves" 0 776 1 "FUNCTION"
 C L "llaves" 0 776 1 "FUNCTION"
-F G "rd_eeprom" 0 1069 "void()" `2198 
+F G "rd_eeprom" 0 1070 "void()" `2198 
 C L "rd_eeprom" 0 776 1 "FUNCTION"
 C L "rd_eeprom" 0 776 1 "FUNCTION"
 C L "rd_eeprom" 0 776 2 "FUNCTION"
 C L "rd_eeprom" 0 776 2 "FUNCTION"
 C L "rd_eeprom" 0 776 1 "FUNCTION"
 C L "rd_eeprom" 0 776 2 "FUNCTION"
-F G "reset" 0 1094 "void()" `2189 
+F G "reset" 0 1095 "void()" `2189 
 C L "reset" 0 776 2 "FUNCTION"
 C L "reset" 0 776 1 "FUNCTION"
 C L "reset" 0 776 1 "FUNCTION"

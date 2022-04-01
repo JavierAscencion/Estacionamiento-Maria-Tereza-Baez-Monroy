@@ -1,4 +1,4 @@
-CCS PCH C Compiler, Version 5.025, 24934               01-abr.-22 11:37
+CCS PCH C Compiler, Version 5.025, 24934               01-abr.-22 11:49
 
                Filename:   D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\ENTRADA_CLIENTE.lst
 
@@ -41350,6 +41350,7 @@ CCS PCH C Compiler, Version 5.025, 24934               01-abr.-22 11:37
 024CE:  MOVLB  0
 024D0:  RCALL  1E0C
 ....................    ///// 
+....................    //barra1(); 
 ....................    barra1(); 
 024D2:  BRA    1FD0
 ....................    fprintf(U1PRINTER,"\x0A");//limpia la justificación 

@@ -1109,7 +1109,7 @@ Project Directory:
     D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\
 
 Project Files:
-    ENTRADA_CLIENTE.c                                       [01-abr.-22 11:37  CRC=73D6BEB6]
+    ENTRADA_CLIENTE.c                                       [01-abr.-22 11:49  CRC=E40D70AB]
     Plantilla_Inicio.c                                      [31-mar.-22 14:24  CRC=479221CE]
     C:\Program Files (x86)\PICC\Devices\18F4680.h           [18-abr.-14 16:57  CRC=903171F2]
     LCD_4x20.c                                              [06-feb.-15 12:05  CRC=FAA4215A]
@@ -1144,7 +1144,7 @@ Project Files:
     tcpip\arptsk.h                                          [24-oct.-06 13:14  CRC=77C29552]
     tcpip\arp.c                                             [13-mar.-09 11:53  CRC=8CA32031]
 
-Source signature=DA049F82
+Source signature=4A3B5177
 
 Units:
     ENTRADA_CLIENTE (main)
