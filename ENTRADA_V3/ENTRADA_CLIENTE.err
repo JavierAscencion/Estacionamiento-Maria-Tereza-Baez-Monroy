@@ -1,0 +1,24 @@
+>>> Warning 215 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\tcpip\stacktsk.c" Line 109(5,21): Undefined identifier   STACK_USE_BASE64
+>>> Warning 215 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\tcpip\stacktsk.c" Line 202(5,21): Undefined identifier   STACK_USE_BASE64
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 42(11,19): Variable never used:   tag_size
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 43(11,24): Variable never used:   word_size_reg
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 44(13,20): Variable never used:   lim_reg
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 45(13,29): Variable never used:   data_numbers_ext
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 48(26,36): Variable never used:   tcp_recibe
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 48(49,61): Variable never used:   falla_grabar
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 48(62,69): Variable never used:   f_graba
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 50(13,20): Variable never used:   c_envia
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 51(17,28): Variable never used:   con_activas
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 52(18,21): Variable never used:   dir
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 64(17,22): Variable never used:   tecla
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 71(7,12): Variable never used:   folio
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 72(11,16): Variable never used:   idbar
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 80(9,12): Variable never used:   en2
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 80(13,16): Variable never used:   en3
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 80(21,24): Variable never used:   en5
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 116(6,12): Variable never used:   boleto
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 117(6,13): Variable never used:   barrera
+>>> Warning 202 "D:\PROYECTOS\PARKING\MARIA TERESA BAEZ MONROY(matanzo)\ENTRADA_V3\Plantilla_Inicio.c" Line 119(7,15): Variable never used:   time_lcd
+      Memory usage:   ROM=52%      RAM=69% - 75%
+      0 Errors,  21 Warnings.
+Build Successful.

@@ -1,0 +1,212 @@
+[Directories]
+Include=
+Library=
+LinkerScript=
+output=
+
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+buildcount=155
+
+[fileformats]
+forcecoff=1
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=0
+tre=0
+expandtree=0
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+
+[PROJECT]
+Target=ENTRADA_CLIENTE.hex
+Development_Mode=
+Processor_Text=PIC18F4680
+ToolSuite=CCS
+CCSVersion=5.070
+Compiler=PCH
+
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+FileList=ENTRADA_CLIENTE.c
+
+[ENTRADA_CLIENTE.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=ENTRADA_CLIENTE.c
+
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+
+
+[CompilerVersion]
+Fixed=
+
+[ProjectLog]
+Days=6
+D1=04-06-2018
+D1_L=13
+D1_L1=[59708]Project Closed.
+D1_L2=[59708]Project Opened.
+D1_L3=[59770]Project Closed.
+D1_L4=[59795]Project Opened.
+D1_L5=[59816]Project Closed.
+D1_L6=[59816]Project Opened.
+D1_L7=[59865]Started Editing.
+D1_L8=[60356]Stopped Editing.
+D1_L9=[60459]Started Editing.
+D1_L10=[63115]Stopped Editing.
+D1_L11=[63385]Started Editing.
+D1_L12=[65034]Stopped Editing.
+TotalEdit=350
+TotalDebug=0
+D1_E=70
+D1_D=0
+D1_L13=[65034]Project Closed.
+D2=05-06-2018
+D2_L=48
+D2_L1=[29857]Project Opened.
+D2_L2=[30447]Started Editing.
+D2_L3=[30919]Stopped Editing.
+D2_L4=[31066]Started Editing.
+D2_L5=[31610]Stopped Editing.
+D2_L6=[31631]Started Editing.
+D2_L7=[31964]Stopped Editing.
+D2_L8=[31970]Started Editing.
+D2_L9=[32941]Stopped Editing.
+D2_L10=[33066]Started Editing.
+D2_L11=[34453]Stopped Editing.
+D2_L12=[34876]Started Editing.
+D2_L13=[38211]Stopped Editing.
+D2_E=201
+D2_D=0
+D2_L14=[38212]Project Closed.
+D2_L15=[38576]Project Opened.
+D2_L16=[38609]Started Editing.
+D2_L17=[38911]Stopped Editing.
+D2_L18=[39026]Started Editing.
+D2_L19=[39547]Stopped Editing.
+D2_L20=[40860]Started Editing.
+D2_L21=[41194]Stopped Editing.
+D2_L22=[41672]Started Editing.
+D2_L23=[42274]Stopped Editing.
+D2_L24=[43796]Started Editing.
+D2_L25=[44643]Stopped Editing.
+D2_L26=[48086]Started Editing.
+D2_L27=[50658]Stopped Editing.
+D2_L28=[54102]Started Editing.
+D2_L29=[56224]Stopped Editing.
+D2_L30=[56440]Started Editing.
+D2_L31=[57311]Stopped Editing.
+D2_L32=[57359]Started Editing.
+D2_L33=[57703]Stopped Editing.
+D2_L34=[57751]Started Editing.
+D2_L35=[58294]Stopped Editing.
+D2_L36=[58473]Started Editing.
+D2_L37=[58861]Stopped Editing.
+D2_L38=[58933]Started Editing.
+D2_L39=[59278]Stopped Editing.
+D2_L40=[59336]Started Editing.
+D2_L41=[59674]Stopped Editing.
+D2_L42=[61383]Started Editing.
+D2_L43=[61686]Stopped Editing.
+D2_L44=[61748]Started Editing.
+D2_L45=[62100]Stopped Editing.
+D2_L46=[62357]Started Editing.
+D2_L47=[62805]Stopped Editing.
+D2_L48=[64904]Project Closed.
+D3=06-06-2018
+D3_L=8
+D3_L1=[29325]Project Opened.
+D3_L2=[29515]Started Editing.
+D3_L3=[30021]Stopped Editing.
+D3_E=13
+D3_D=0
+D3_L4=[30426]Project Closed.
+D3_L5=[64320]Project Opened.
+D3_L6=[64442]Started Editing.
+D3_L7=[64929]Stopped Editing.
+D3_L8=[64929]Project Closed.
+D4=07-06-2018
+D4_L=6
+D4_L1=[30005]Project Opened.
+D4_L2=[30384]Started Editing.
+D4_L3=[32042]Stopped Editing.
+D4_L4=[32058]Started Editing.
+D4_L5=[32815]Stopped Editing.
+D4_E=31
+D4_D=0
+D4_L6=[33230]Project Closed.
+D5=11-06-2018
+D5_L=10
+D5_L1=[36465]Project Opened.
+D5_L2=[36483]Started Editing.
+D5_L3=[36535]Stopped Editing.
+D5_E=6
+D5_D=0
+D5_L4=[36536]Project Closed.
+D5_L5=[37531]Project Opened.
+D5_L6=[54310]Project Closed.
+D5_L7=[64392]Project Opened.
+D5_L8=[64630]Started Editing.
+D5_L9=[64900]Stopped Editing.
+D5_L10=[64900]Project Closed.
+D6=12-06-2018
+D6_L=22
+D6_L1=[36502]Started Editing.
+D6_L2=[37588]Stopped Editing.
+D6_L3=[41067]Started Editing.
+D6_L4=[41393]Stopped Editing.
+D6_L5=[41491]Started Editing.
+D6_L6=[41800]Stopped Editing.
+D6_E=29
+D6_D=0
+D6_L7=[44943]Project Closed.
+D6_L8=[45906]Project Opened.
+D6_L9=[45933]Started Editing.
+D6_L10=[46233]Stopped Editing.
+D6_L11=[47174]Started Editing.
+D6_L12=[47563]Stopped Editing.
+D6_L13=[48937]Started Editing.
+D6_L14=[49237]Stopped Editing.
+D6_L15=[54370]Started Editing.
+D6_L16=[55175]Stopped Editing.
+D6_L17=[56276]Started Editing.
+D6_L18=[57459]Stopped Editing.
+D6_L19=[59895]Project Opened.
+D6_L20=[59973]Started Editing.
+D6_L21=[60505]Stopped Editing.
+D6_L22=[63162]Project Closed.
+
+[Opened Files]
+1=ENTRADA_CLIENTE.c
+t1=466
+Count=5
+2=Plantilla_Inicio.c
+t2=1
+3=tcpip\tcp.c
+t3=1
+4=tcpip\stacktsk.h
+t4=1
+5=tcpip\tcp.h
+t5=1
+[Units]
+Count=1
+1=ENTRADA_CLIENTE (main)

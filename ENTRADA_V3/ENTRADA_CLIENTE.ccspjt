@@ -1,0 +1,50 @@
+[PROJECT]
+Target=ENTRADA_CLIENTE.hex
+Processor_Text=PIC18F4680
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=ENTRADA_CLIENTE.c
+[ENTRADA_CLIENTE.c]
+Type=4
+[mru-list]
+1=ENTRADA_CLIENTE.c
+
+[ProjectLog]
+Days=2
+D1=31-03-2022
+D1_L=4
+D1_L1=[51578]Stopped Editing.
+D1_L2=[51667]Started Editing.
+D1_L3=[51971]Stopped Editing.
+TotalEdit=33
+TotalDebug=0
+D1_E=13
+D1_D=0
+D1_L4=[51971]Project Closed.
+D2=01-04-2022
+D2_L=14
+D2_L1=[30313]Project Opened.
+D2_L2=[30438]Started Editing.
+D2_L3=[31154]Stopped Editing.
+D2_L4=[31394]Started Editing.
+D2_L5=[31912]Stopped Editing.
+D2_L6=[32837]Started Editing.
+D2_L7=[33675]Stopped Editing.
+D2_E=20
+D2_D=0
+D2_L8=[34449]Project Closed.
+D2_L9=[34596]Project Opened.
+D2_L10=[34913]Started Editing.
+D2_L11=[35954]Stopped Editing.
+D2_L12=[36777]Started Editing.
+D2_L13=[37745]Stopped Editing.
+D2_L14=[40906]Started Editing.
+
+[Opened Files]
+1=ENTRADA_CLIENTE.c
+2=Plantilla_Inicio.c
+3=
+[Units]
+Count=1
+1=ENTRADA_CLIENTE (main)

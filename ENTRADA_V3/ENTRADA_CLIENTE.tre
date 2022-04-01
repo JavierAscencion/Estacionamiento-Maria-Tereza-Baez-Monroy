@@ -1,0 +1,1202 @@
+ÀÄENTRADA_CLIENTE
+   ÃÄmain  0/2914  Ram=5
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ÀÄlcd_putc  0/100  Ram=1
+   ³  ³     ÃÄlcd_send_byte  0/68  Ram=3
+   ³  ³     ³  ÃÄlcd_send_nibble  0/74  Ram=1
+   ³  ³     ³  ÀÄlcd_send_nibble  0/74  Ram=1
+   ³  ³     ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³     ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³     ³  ÀÄlcd_send_byte  0/68  Ram=3
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄlcd_send_byte  0/68  Ram=3
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÀÄlcd_send_byte  0/68  Ram=3
+   ³  ³        ÀÄ*
+   ³  ÃÄinit_ext_eeprom  0/8  Ram=0
+   ³  ÃÄlcd_init  0/126  Ram=2
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄlcd_send_nibble  0/74  Ram=1
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄlcd_send_nibble  0/74  Ram=1
+   ³  ³  ÃÄ@const739  0/20  Ram=0
+   ³  ³  ÃÄlcd_send_byte  0/68  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄllaves  0/718  Ram=18
+   ³  ³  ÀÄ@goto14554  0/54  Ram=0
+   ³  ÃÄMACAddrInit  0/26  Ram=0
+   ³  ÃÄIPAddrInit  0/48  Ram=0
+   ³  ÃÄServerAddrInit  0/24  Ram=0
+   ³  ÃÄStackInit  0/18  Ram=0
+   ³  ³  ÃÄTickInit  0/22  Ram=0
+   ³  ³  ÃÄMACInit  0/474  Ram=2
+   ³  ³  ³  ÃÄENCSPIInit  0/18  Ram=0
+   ³  ³  ³  ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³  ÃÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³  ³  ÀÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³  ÃÄSendSystemReset  0/20  Ram=0
+   ³  ³  ³  ³  ÀÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÃÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³  ³  ÀÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³  ÃÄBFCReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÃÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³  ³  ³  ÀÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³  ³  ÀÄBFSReg  0/30  Ram=3
+   ³  ³  ³  ³     ÃÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³  ³     ÀÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWritePHYReg  0/144  Ram=6
+   ³  ³  ³  ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄReadMACReg  0/50  Ram=3
+   ³  ³  ³  ³     ÃÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³  ³     ÃÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³  ³     ÀÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³  ÃÄWritePHYReg  0/144  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄMACSetDuplex  0/162  Ram=5
+   ³  ³  ³  ³  ÃÄBFCReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄReadPHYReg  0/154  Ram=4
+   ³  ³  ³  ³  ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÃÄReadMACReg  0/50  Ram=3
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÃÄReadMACReg  0/50  Ram=3
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÀÄReadMACReg  0/50  Ram=3
+   ³  ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ³  ÃÄWritePHYReg  0/144  Ram=6
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄReadMACReg  0/50  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄBFSReg  0/30  Ram=3
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÀÄBFSReg  0/30  Ram=3
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄARPInit  0/32  Ram=0
+   ³  ³  ÀÄTCPInit  0/342  Ram=5
+   ³  ³     ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³     ÃÄMACDiscardTx  0/2  Ram=1
+   ³  ³     ÃÄsrand  0/20  Ram=4
+   ³  ³     ÀÄrand  0/130  Ram=4
+   ³  ³        ÃÄ@MUL3232  0/92  Ram=14
+   ³  ³        ÀÄ@DIV1616  0/70  Ram=5
+   ³  ÃÄticket  0/1868  Ram=25
+   ³  ³  ÃÄds1307_get_date  (Inline)  Ram=5
+   ³  ³  ³  ÃÄ@I2C_WRITE_2  0/118  Ram=1
+   ³  ³  ³  ÃÄ@I2C_WRITE_2  0/118  Ram=1
+   ³  ³  ³  ÃÄ@I2C_WRITE_2  0/118  Ram=1
+   ³  ³  ³  ÃÄ@I2C_READ_2  0/106  Ram=3
+   ³  ³  ³  ÃÄbcd2bin  0/42  Ram=3
+   ³  ³  ³  ÃÄ@I2C_READ_2  0/106  Ram=3
+   ³  ³  ³  ÃÄbcd2bin  0/42  Ram=3
+   ³  ³  ³  ÃÄ@I2C_READ_2  0/106  Ram=3
+   ³  ³  ³  ÃÄbcd2bin  0/42  Ram=3
+   ³  ³  ³  ÃÄ@I2C_READ_2  0/106  Ram=3
+   ³  ³  ³  ÀÄbcd2bin  0/42  Ram=3
+   ³  ³  ÃÄds1307_get_time  (Inline)  Ram=4
+   ³  ³  ³  ÃÄ@I2C_WRITE_2  0/118  Ram=1
+   ³  ³  ³  ÃÄ@I2C_WRITE_2  0/118  Ram=1
+   ³  ³  ³  ÃÄ@I2C_WRITE_2  0/118  Ram=1
+   ³  ³  ³  ÃÄ@I2C_READ_2  0/106  Ram=3
+   ³  ³  ³  ÃÄbcd2bin  0/42  Ram=3
+   ³  ³  ³  ÃÄ@I2C_READ_2  0/106  Ram=3
+   ³  ³  ³  ÃÄbcd2bin  0/42  Ram=3
+   ³  ³  ³  ÃÄ@I2C_READ_2  0/106  Ram=3
+   ³  ³  ³  ÀÄbcd2bin  0/42  Ram=3
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@MEMSET  0/26  Ram=0
+   ³  ³  ÃÄstrlen  0/58  Ram=5
+   ³  ³  ÃÄ@PSTRINGCN_647  0/40  Ram=3
+   ³  ³  ³  ÀÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PSTRINGR_647  0/36  Ram=2
+   ³  ³  ³  ÀÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄLF  0/12  Ram=0
+   ³  ³  ³  ÀÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄLF  0/12  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLF  0/12  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PRINTF_D0_647  0/188  Ram=6
+   ³  ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ³  ÀÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PRINTF_D0_647  0/188  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGCN_647  0/40  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_D0_647  0/188  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PRINTF_D0_647  0/188  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PRINTF_D0_647  0/188  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PRINTF_D0_647  0/188  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLF  0/12  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄbarra1  0/174  Ram=2
+   ³  ³  ³  ÃÄstrlen  0/58  Ram=5
+   ³  ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ³  ÀÄ@PSTRINGR_647  0/36  Ram=2
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_647  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÃÄLF  0/12  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ³  ÀÄ@PUTCHAR_BIU_1  0/16  Ram=1
+   ³  ÃÄread_ext_eeprom  0/168  Ram=5
+   ³  ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+   ³  ³  ÀÄ@I2C_READ_1  0/108  Ram=3
+   ³  ÃÄwrite_ext_eeprom  0/262  Ram=6
+   ³  ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/118  Ram=1
+   ³  ³  ÀÄ@I2C_WRITE_1  0/118  Ram=1
+   ³  ÃÄwrite_ext_eeprom  0/262  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄwrite_ext_eeprom  0/262  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄwrite_ext_eeprom  0/262  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄread_ext_eeprom  0/168  Ram=5
+   ³  ³  ÀÄ*
+   ³  ÃÄread_ext_eeprom  0/168  Ram=5
+   ³  ³  ÀÄ*
+   ³  ÃÄread_ext_eeprom  0/168  Ram=5
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_753  0/42  Ram=3
+   ³  ³  ÀÄlcd_putc  0/100  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄ@PRINTF_U_753  0/134  Ram=2
+   ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄlcd_putc  0/100  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄ@PSTRINGCN_753  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D_753  0/206  Ram=6
+   ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄlcd_putc  0/100  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_753  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_U_753  0/134  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄreset  0/46  Ram=0
+   ³  ÃÄStackTask  0/450  Ram=8
+   ³  ³  ÃÄ@goto13475  0/40  Ram=0
+   ³  ³  ÃÄMACGetHeader  0/330  Ram=26
+   ³  ³  ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ÃÄBFSReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄMACGetArray  0/100  Ram=8
+   ³  ³  ³  ³  ÃÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³  ³  ÀÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³  ÀÄswaps  0/22  Ram=4
+   ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄARPProcess  0/150  Ram=11
+   ³  ³  ³  ÃÄARPGet  0/248  Ram=34
+   ³  ³  ³  ³  ÃÄMACGetArray  0/100  Ram=8
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄSwapARPPacket  0/212  Ram=6
+   ³  ³  ³  ³     ÃÄswaps  0/22  Ram=4
+   ³  ³  ³  ³     ÃÄswaps  0/22  Ram=4
+   ³  ³  ³  ³     ÀÄswaps  0/22  Ram=4
+   ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄARPPut  0/404  Ram=36
+   ³  ³  ³     ÃÄMACGetTxBuffer  0/40  Ram=2
+   ³  ³  ³     ³  ÀÄReadETHReg  0/42  Ram=3
+   ³  ³  ³     ³     ÀÄ*
+   ³  ³  ³     ÃÄMACSetTxBuffer  0/174  Ram=6
+   ³  ³  ³     ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³     ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³     ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³     ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³     ³  ÀÄWriteReg  0/30  Ram=3
+   ³  ³  ³     ³     ÀÄ*
+   ³  ³  ³     ÃÄSwapARPPacket  0/212  Ram=6
+   ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³     ÃÄMACPutHeader  0/214  Ram=8
+   ³  ³  ³     ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³     ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³     ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³     ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³     ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³     ³  ÃÄMACPut  0/30  Ram=1
+   ³  ³  ³     ³  ³  ÃÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³     ³  ³  ÀÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³     ³  ÃÄMACPutArray  0/78  Ram=5
+   ³  ³  ³     ³  ³  ÃÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³     ³  ³  ÀÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³     ³  ÃÄMACPutArray  0/78  Ram=5
+   ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³     ³  ÃÄMACPut  0/30  Ram=1
+   ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³     ³  ÀÄMACPut  0/30  Ram=1
+   ³  ³  ³     ³     ÀÄ*
+   ³  ³  ³     ÃÄMACPutArray  0/78  Ram=5
+   ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³     ÀÄMACFlush  0/560  Ram=2
+   ³  ³  ³        ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄBFSReg  0/30  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄBFCReg  0/30  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄBFCReg  0/30  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄBFSReg  0/30  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄBFCReg  0/30  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄMACGetArray  0/100  Ram=8
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄBFSReg  0/30  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄBFCReg  0/30  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄBFCReg  0/30  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄBFSReg  0/30  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄBFCReg  0/30  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄMACGetArray  0/100  Ram=8
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³        ³  ÀÄ*
+   ³  ³  ³        ÀÄWriteReg  0/30  Ram=3
+   ³  ³  ³           ÀÄ*
+   ³  ³  ÃÄIPGetHeader  0/232  Ram=32
+   ³  ³  ³  ÃÄMACGetArray  0/100  Ram=8
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄMACCalcRxChecksum  0/270  Ram=8
+   ³  ³  ³  ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄBFSReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄMACSetRxBuffer  0/130  Ram=6
+   ³  ³  ³  ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÀÄSwapIPHeader  0/224  Ram=6
+   ³  ³  ³     ÃÄswaps  0/22  Ram=4
+   ³  ³  ³     ÃÄswaps  0/22  Ram=4
+   ³  ³  ³     ÀÄswaps  0/22  Ram=4
+   ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTCPProcess  0/432  Ram=46
+   ³  ³  ³  ÃÄswaps  0/22  Ram=4
+   ³  ³  ³  ÃÄCalcIPChecksum  0/246  Ram=20
+   ³  ³  ³  ÃÄCalcIPBufferChecksum  0/344  Ram=6
+   ³  ³  ³  ³  ÃÄMACGet  0/44  Ram=1
+   ³  ³  ³  ³  ³  ÃÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³  ³  ³  ÀÄENCSPIXfer  0/58  Ram=3
+   ³  ³  ³  ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄBFSReg  0/30  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄIPSetRxBuffer  0/28  Ram=4
+   ³  ³  ³  ³  ÀÄMACSetRxBuffer  0/130  Ram=6
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄMACGetArray  0/100  Ram=8
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSwapTCPHeader  0/550  Ram=8
+   ³  ³  ³  ³  ÃÄswaps  0/22  Ram=4
+   ³  ³  ³  ³  ÃÄswaps  0/22  Ram=4
+   ³  ³  ³  ³  ÃÄswapl  0/34  Ram=8
+   ³  ³  ³  ³  ÃÄswapl  0/34  Ram=8
+   ³  ³  ³  ³  ÃÄswaps  0/22  Ram=4
+   ³  ³  ³  ³  ÃÄswaps  0/22  Ram=4
+   ³  ³  ³  ³  ÀÄswaps  0/22  Ram=4
+   ³  ³  ³  ÃÄIPSetRxBuffer  0/28  Ram=4
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄFindMatching_TCP_Socket  0/518  Ram=12
+   ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ÀÄMACDiscardTx  0/2  Ram=1
+   ³  ³  ³  ÃÄHandleTCPSeg  0/2606  Ram=36
+   ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ÃÄTickGet  0/26  Ram=2
+   ³  ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄMACDiscardTx  0/2  Ram=1
+   ³  ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄCloseSocket  0/258  Ram=4
+   ³  ³  ³  ³  ³  ÃÄMACDiscardTx  0/2  Ram=1
+   ³  ³  ³  ³  ³  ÀÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄCloseSocket  0/258  Ram=4
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄCloseSocket  0/258  Ram=4
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄCloseSocket  0/258  Ram=4
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄTransmitTCP  0/564  Ram=58
+   ³  ³  ³  ³     ÃÄMACIsTxReady  0/40  Ram=2
+   ³  ³  ³  ³     ³  ÀÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³     ³     ÀÄ*
+   ³  ³  ³  ³     ÃÄMACGetTxBuffer  0/40  Ram=2
+   ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³     ÃÄMACSetTxBuffer  0/174  Ram=6
+   ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³     ÃÄMACGetFreeRxSize  0/280  Ram=6
+   ³  ³  ³  ³     ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ÀÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³     ³     ÀÄ*
+   ³  ³  ³  ³     ÃÄSwapTCPHeader  0/550  Ram=8
+   ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³     ÃÄswaps  0/22  Ram=4
+   ³  ³  ³  ³     ÃÄCalcIPChecksum  0/246  Ram=20
+   ³  ³  ³  ³     ÃÄIPPutHeader  0/294  Ram=29
+   ³  ³  ³  ³     ³  ÃÄSwapIPHeader  0/224  Ram=6
+   ³  ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ÃÄMACPutHeader  0/214  Ram=8
+   ³  ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ÃÄMACPutArray  0/78  Ram=5
+   ³  ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ÃÄMACCalcTxChecksum  0/216  Ram=8
+   ³  ³  ³  ³     ³  ³  ÃÄBankSel  0/54  Ram=5
+   ³  ³  ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ³  ÃÄWriteReg  0/30  Ram=3
+   ³  ³  ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ³  ÃÄBFSReg  0/30  Ram=3
+   ³  ³  ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ³  ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ³  ÃÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ³  ÀÄReadETHReg  0/42  Ram=3
+   ³  ³  ³  ³     ³  ³     ÀÄ*
+   ³  ³  ³  ³     ³  ÃÄMACSetTxBuffer  0/174  Ram=6
+   ³  ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ÃÄMACPutArray  0/78  Ram=5
+   ³  ³  ³  ³     ³  ³  ÀÄ*
+   ³  ³  ³  ³     ³  ÀÄMACSetTxBuffer  0/174  Ram=6
+   ³  ³  ³  ³     ³     ÀÄ*
+   ³  ³  ³  ³     ÃÄMACPutArray  0/78  Ram=5
+   ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³     ÃÄMACPutArray  0/78  Ram=5
+   ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³     ÃÄMACSetTxBuffer  0/174  Ram=6
+   ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³     ÃÄCalcIPBufferChecksum  0/344  Ram=6
+   ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³     ÃÄMACSetTxBuffer  0/174  Ram=6
+   ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³     ÃÄMACPut  0/30  Ram=1
+   ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³     ÃÄMACPut  0/30  Ram=1
+   ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³     ÃÄMACSetTxBuffer  0/174  Ram=6
+   ³  ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³  ³     ÀÄMACFlush  0/560  Ram=2
+   ³  ³  ³  ³        ÀÄ*
+   ³  ³  ³  ÀÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄICMPGet  0/218  Ram=89
+   ³  ³  ³  ÃÄMACGetArray  0/100  Ram=8
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄMACCalcRxChecksum  0/270  Ram=8
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄMACGetArray  0/100  Ram=8
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄSwapICMPPacket  0/224  Ram=6
+   ³  ³  ³     ÃÄswaps  0/22  Ram=4
+   ³  ³  ³     ÃÄswaps  0/22  Ram=4
+   ³  ³  ³     ÀÄswaps  0/22  Ram=4
+   ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMACIsTxReady  0/40  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄICMPPut  0/272  Ram=87
+   ³  ³  ³  ÃÄMACGetTxBuffer  0/40  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄMACSetTxBuffer  0/174  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSwapICMPPacket  0/224  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄIPPutHeader  0/294  Ram=29
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄMACPutArray  0/78  Ram=5
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄMACCalcTxChecksum  0/216  Ram=8
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄMACSetTxBuffer  0/174  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄMACPutArray  0/78  Ram=5
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄMACFlush  0/560  Ram=2
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÀÄTCPTick  0/1164  Ram=22
+   ³  ³     ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³     ÃÄTickGet  0/26  Ram=2
+   ³  ³     ÃÄMACIsTxReady  0/40  Ram=2
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄTickGet  0/26  Ram=2
+   ³  ³     ÃÄ@goto12977  0/44  Ram=0
+   ³  ³     ÃÄMACSetTxBuffer  0/174  Ram=6
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄMACFlush  0/560  Ram=2
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄMACDiscardTx  0/2  Ram=1
+   ³  ³     ÃÄCloseSocket  0/258  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄCloseSocket  0/258  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄCloseSocket  0/258  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄCloseSocket  0/258  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÀÄTransmitTCP  0/564  Ram=58
+   ³  ³        ÀÄ*
+   ³  ÃÄMyTCPTask  0/846  Ram=5
+   ³  ³  ÃÄTickGet  0/26  Ram=2
+   ³  ³  ÃÄ@goto13662  0/42  Ram=0
+   ³  ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMACIsTxReady  0/40  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄARPResolve  0/66  Ram=12
+   ³  ³  ³  ÀÄARPPut  0/404  Ram=36
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄARPIsResolved  0/138  Ram=6
+   ³  ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTCPConnect  0/556  Ram=22
+   ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ÃÄTransmitTCP  0/564  Ram=58
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄTickGet  0/26  Ram=2
+   ³  ³  ÃÄTickGet  0/26  Ram=2
+   ³  ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTCPIsConnected  0/60  Ram=4
+   ³  ³  ³  ÀÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTCPIsConnected  0/60  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTCPConnectedTask  0/282  Ram=6
+   ³  ³  ³  ÃÄTCPIsGetReady  0/70  Ram=3
+   ³  ³  ³  ³  ÀÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ÃÄTCPGet  0/232  Ram=7
+   ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ÃÄIPSetRxBuffer  0/28  Ram=4
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄMACGet  0/44  Ram=1
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄTCPIsPutReady  0/206  Ram=3
+   ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ÃÄMACIsTxReady  0/40  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ÃÄTCPPutArray  0/476  Ram=13
+   ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ÃÄMACGetTxBuffer  0/40  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄMACSetTxBuffer  0/174  Ram=6
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄTCPPutAvailable  0/318  Ram=7
+   ³  ³  ³  ³  ³  ÃÄTCPIsPutReady  0/206  Ram=3
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ³  ÀÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ÃÄMACPut  0/30  Ram=1
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄTCPFlush  0/476  Ram=20
+   ³  ³  ³  ³     ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³     ÀÄTransmitTCP  0/564  Ram=58
+   ³  ³  ³  ³        ÀÄ*
+   ³  ³  ³  ÃÄTCPFlush  0/476  Ram=20
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄTCPIsPutReady  0/206  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄTCPDisconnect  0/358  Ram=17
+   ³  ³  ³     ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³     ÃÄCloseSocket  0/258  Ram=4
+   ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³     ÃÄTCPDiscard  0/98  Ram=5
+   ³  ³  ³     ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³     ³  ÀÄMACDiscardRx  0/118  Ram=2
+   ³  ³  ³     ³     ÀÄ*
+   ³  ³  ³     ÀÄTransmitTCP  0/564  Ram=58
+   ³  ³  ³        ÀÄ*
+   ³  ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTCPIsPutReady  0/206  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTCPDisconnect  0/358  Ram=17
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³     ÀÄ*
+   ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄwrite_ext_eeprom  0/262  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@const2222  0/32  Ram=0
+   ³  ÃÄstrlen  0/58  Ram=5
+   ³  ÃÄenviar_tcp  0/12  Ram=0
+   ³  ³  ÃÄStackTask  0/450  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄMyTCPTask  0/846  Ram=5
+   ³  ³     ÀÄ*
+   ³  ÃÄwiegand_read_card  0/392  Ram=5
+   ³  ³  ÃÄ@PRINTF_X_2246  0/70  Ram=2
+   ³  ³  ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ³  ³  ÀÄ@SPRINTF  0/32  Ram=1
+   ³  ³  ÃÄ@PRINTF_X_2246  0/70  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_X_2246  0/70  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_X_2246  0/70  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGCN_2246  0/42  Ram=3
+   ³  ³  ³  ÀÄ@SPRINTF  0/32  Ram=1
+   ³  ³  ÃÄ@PRINTF_X_2246  0/70  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_X_2246  0/70  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_X_2246  0/70  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_X_2246  0/70  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄstrlen  0/58  Ram=5
+   ³  ³  ÃÄenviar_tcp  0/12  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄ@MEMSET  0/26  Ram=0
+   ³  ÃÄsensores  0/206  Ram=0
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_2246  0/34  Ram=2
+   ³  ³  ³  ÀÄ@SPRINTF  0/32  Ram=1
+   ³  ³  ÃÄstrlen  0/58  Ram=5
+   ³  ³  ÀÄenviar_tcp  0/12  Ram=0
+   ³  ³     ÀÄ*
+   ³  ÃÄrd_eeprom  0/192  Ram=5
+   ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄticket  0/1868  Ram=25
+   ³  ³  ÀÄ*
+   ³  ÃÄ@MEMSET  0/26  Ram=0
+   ³  ÃÄstrlen  0/58  Ram=5
+   ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄstrlen  0/58  Ram=5
+   ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄfecha  0/366  Ram=1
+   ³  ³  ÃÄconvertir_to_entero  0/168  Ram=3
+   ³  ³  ÃÄconvertir_to_entero  0/168  Ram=3
+   ³  ³  ÃÄconvertir_to_entero  0/168  Ram=3
+   ³  ³  ÃÄconvertir_to_entero  0/168  Ram=3
+   ³  ³  ÃÄconvertir_to_entero  0/168  Ram=3
+   ³  ³  ÃÄconvertir_to_entero  0/168  Ram=3
+   ³  ³  ÃÄconvertir_to_entero  0/168  Ram=3
+   ³  ³  ÃÄconvertir_to_entero  0/168  Ram=3
+   ³  ³  ÃÄconvertir_to_entero  0/168  Ram=3
+   ³  ³  ÃÄconvertir_to_entero  0/168  Ram=3
+   ³  ³  ÃÄconvertir_to_entero  0/168  Ram=3
+   ³  ³  ÃÄconvertir_to_entero  0/168  Ram=3
+   ³  ³  ÃÄconvertir_to_entero  0/168  Ram=3
+   ³  ³  ÃÄds1307_set_date_time  0/248  Ram=8
+   ³  ³  ³  ÃÄ@I2C_WRITE_2  0/118  Ram=1
+   ³  ³  ³  ÃÄ@I2C_WRITE_2  0/118  Ram=1
+   ³  ³  ³  ÃÄbin2bcd  0/40  Ram=3
+   ³  ³  ³  ÃÄ@I2C_WRITE_2  0/118  Ram=1
+   ³  ³  ³  ÃÄbin2bcd  0/40  Ram=3
+   ³  ³  ³  ÃÄ@I2C_WRITE_2  0/118  Ram=1
+   ³  ³  ³  ÃÄbin2bcd  0/40  Ram=3
+   ³  ³  ³  ÃÄ@I2C_WRITE_2  0/118  Ram=1
+   ³  ³  ³  ÃÄbin2bcd  0/40  Ram=3
+   ³  ³  ³  ÃÄ@I2C_WRITE_2  0/118  Ram=1
+   ³  ³  ³  ÃÄbin2bcd  0/40  Ram=3
+   ³  ³  ³  ÃÄ@I2C_WRITE_2  0/118  Ram=1
+   ³  ³  ³  ÃÄbin2bcd  0/40  Ram=3
+   ³  ³  ³  ÃÄ@I2C_WRITE_2  0/118  Ram=1
+   ³  ³  ³  ÃÄbin2bcd  0/40  Ram=3
+   ³  ³  ³  ÃÄ@I2C_WRITE_2  0/118  Ram=1
+   ³  ³  ³  ÀÄ@I2C_WRITE_2  0/118  Ram=1
+   ³  ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄwrite_ext_eeprom  0/262  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@const2222  0/32  Ram=0
+   ³  ÃÄstrlen  0/58  Ram=5
+   ³  ÃÄenviar_tcp  0/12  Ram=0
+   ³  ³  ÀÄ*
+   ³  ÃÄds1307_get_time  (Inline)  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄds1307_get_date  (Inline)  Ram=5
+   ³  ³  ÀÄ*
+   ³  ÃÄzeller  0/992  Ram=18
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ÃÄds1307_get_date  (Inline)  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄds1307_get_time  (Inline)  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄread_ext_eeprom  0/168  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄds1307_set_date_time  0/248  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄwrite_ext_eeprom  0/262  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄds1307_set_date_time  0/248  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄwrite_ext_eeprom  0/262  Ram=6
+   ³  ³     ÀÄ*
+   ³  ÃÄwrite_ext_eeprom  0/262  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄwrite_ext_eeprom  0/262  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_753  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_753  0/204  Ram=6
+   ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄlcd_putc  0/100  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_753  0/204  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_753  0/204  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_753  0/204  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_753  0/204  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_753  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_753  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_753  0/204  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_753  0/204  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_753  0/204  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_753  0/204  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/100  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_753  0/204  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_753  0/42  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_gotoxy  0/82  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_753  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄMACIsLinked  0/32  Ram=2
+   ³  ³  ÀÄReadPHYReg  0/154  Ram=4
+   ³  ³     ÀÄ*
+   ³  ÀÄTCPDisconnect  0/358  Ram=17
+   ³     ÀÄ*
+   ÃÄTick_Isr  0/36  Ram=0
+   ÃÄTIMER1_isr  0/28  Ram=0
+   ÃÄEXT_isr  0/52  Ram=2
+   ÀÄEXT1_isr  0/50  Ram=2

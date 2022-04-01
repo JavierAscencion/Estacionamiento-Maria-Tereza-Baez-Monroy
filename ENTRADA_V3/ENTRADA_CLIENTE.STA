@@ -1,0 +1,307 @@
+
+ROM used:   33864/65536 (52%)
+            33866/65536 (52%) including unused fragments
+
+            2.3 Average locations per line
+            13.9 Average locations per statement
+
+RAM used:   2301/3328 (69%) at main() level
+            2503/3328 (75%) worst case
+
+Stack used: 10 worst case (9 in main + 1 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+ 1124   727  30  ENTRADA_CLIENTE.c
+  122     0   0  Plantilla_Inicio.c
+  843     0   0  C:\Program Files (x86)\PICC\Devices\18F4680.h
+  305    54   2  LCD_4x20.c
+   74    24   1  24256_SEGUINT.c
+  167    76   3  ds1307_3.c
+  606    78   3  tcpip\stacktsk.c
+  587     0   0  tcpip\stacktsk.h
+  253     0   0  tcpip\pic18.h
+  203     0   0  tcpip\hardware.h
+  423     0   0  C:\Program Files (x86)\PICC\Drivers\string.h
+   32     0   0  C:\Program Files (x86)\PICC\Drivers\stddef.h
+   28     0   0  C:\Program Files (x86)\PICC\Drivers\ctype.h
+ 1351   359  15  C:\Program Files (x86)\PICC\Drivers\stdlib.h
+  282    39   2  tcpip\helpers.c
+   65     0   0  tcpip\helpers.h
+  222     0   0  tcpip\mac.h
+  587     0   0  tcpip\StackTsk.h
+  726     0   0  tcpip\ENC28J60.h
+  155    15   1  tcpip\tick.c
+  148     0   0  tcpip\tick.h
+ 2231   333  14  tcpip\enc28j60.c
+   65     0   0  tcpip\Helpers.h
+  222     0   0  tcpip\MAC.h
+  307    39   2  tcpip\ip.c
+  258     0   0  tcpip\ip.h
+ 1946   578  24  tcpip\tcp.c
+  408     0   0  tcpip\tcp.h
+  258    33   1  tcpip\icmp.c
+  151     0   0  tcpip\icmp.h
+  213    31   1  tcpip\arptsk.c
+  118     0   0  tcpip\arp.h
+  128     0   0  tcpip\arptsk.h
+  244    53   2  tcpip\arp.c
+----- -----
+14852  2439 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     40   0    1             @delay_ms1
+0     16   0    1             @PUTCHAR_BIU_1
+0     20   0    0             @const739
+0     74   0    1    326  2.8  lcd_send_nibble
+0     68   0    3    235  3.8  lcd_send_byte
+0    126   0    2    406  4.7  lcd_init
+0     82   0    4    386  6.5  lcd_gotoxy
+0    100   0    1    317  4.3  lcd_putc
+0    108   0    3             @I2C_READ_1
+0    118   0    1             @I2C_WRITE_1
+0      8   0    0     32  1.0  init_ext_eeprom
+0    262   0    6    331  4.0  write_ext_eeprom
+0    168   0    5    221  2.6  read_ext_eeprom
+0    106   0    3             @I2C_READ_2
+0    118   0    1             @I2C_WRITE_2
+0    248   0    8    559  2.7  ds1307_set_date_time
+ Inline         5    437  3.1  ds1307_get_date
+ Inline         4    367  3.0  ds1307_get_time
+0     40   0    3    240  6.0  bin2bcd
+0     42   0    3    172  2.8  bcd2bin
+0     58   0    5    140  5.0  strlen
+0     92   0   14             @MUL3232
+0    130   0    4    101  3.8  rand
+0     70   0    5             @DIV1616
+0     20   0    4     39  2.1  srand
+0     34   0    5             @MUL1616
+0     22   0    4    178  3.0  swaps
+0     34   0    8    325  3.2  swapl
+0    246   0   20   1083  9.0  CalcIPChecksum
+0     22   0    0    138  2.9  TickInit
+0     26   0    2     86  2.1  TickGet
+0     36   0    0    231  1.8  Tick_Isr
+0     18   0    0     82  1.3  ENCSPIInit
+0     58   0    3    312  4.7  ENCSPIXfer
+0    474   1    2   3878 11.2  MACInit
+0     32   0    2     44  1.6  MACIsLinked
+0     40   0    2     91  2.7  MACIsTxReady
+0     40   0    2    118  3.9  MACGetTxBuffer
+0      2   0    1     22  1.0  MACDiscardTx
+0    118   0    2    636  7.5  MACDiscardRx
+0    280   0    6   1307  9.3  MACGetFreeRxSize
+0    330   0   26   1894 10.6  MACGetHeader
+0    214   0    8    989  9.0  MACPutHeader
+0    560   1    2   2697 11.5  MACFlush
+0    130   0    6    692  7.2  MACSetRxBuffer
+0    174   0    6    576  6.5  MACSetTxBuffer
+0    270   0    8   1582  9.2  MACCalcRxChecksum
+0    216   0    8    908  8.1  MACCalcTxChecksum
+0    344   1    6   1772 10.9  CalcIPBufferChecksum
+0     44   0    1    151  2.9  MACGet
+0    100   0    8    281  5.5  MACGetArray
+0     30   0    1    110  2.1  MACPut
+0     78   0    5    187  4.4  MACPutArray
+0     20   0    0     84  2.0  SendSystemReset
+0     42   0    3    158  3.1  ReadETHReg
+0     50   0    3    183  3.0  ReadMACReg
+0    154   0    4    444  4.3  ReadPHYReg
+0     30   0    3    123  2.8  WriteReg
+0     30   0    3    123  2.8  BFCReg
+0     30   0    3    123  2.8  BFSReg
+0    144   0    6    322  4.7  WritePHYReg
+0     54   0    5    149  4.7  BankSel
+0    162   0    5    647  6.3  MACSetDuplex
+0    232   0   32    857  7.7  IPGetHeader
+0    294   0   29   1184  7.5  IPPutHeader
+0     28   0    4     33  1.7  IPSetRxBuffer
+0    224   0    6    183  1.9  SwapIPHeader
+0    342   1    5   1194  8.7  TCPInit
+0    556   1   22   1228 10.1  TCPConnect
+0     60   0    4     53  3.0  TCPIsConnected
+0    358   1   17    497  6.9  TCPDisconnect
+0    476   1   20    635  7.1  TCPFlush
+0    206   0    3    197  4.0  TCPIsPutReady
+0    318   0    7    414  7.3  TCPPutAvailable
+0    476   1   13    996 12.0  TCPPutArray
+0     98   0    5    200  5.1  TCPDiscard
+0    232   0    7    506  6.9  TCPGet
+0     70   0    3     52  2.6  TCPIsGetReady
+0   1164   2   22   3640 15.7  TCPTick
+0     44   0    0             @goto12977
+0    432   1   46   1562  9.6  TCPProcess
+0    564   1   58   3281 11.6  TransmitTCP
+0    518   1   12   1233  9.4  FindMatching_TCP_Socket
+0    550   1    8    409  2.9  SwapTCPHeader
+0    258   0    4    723  5.3  CloseSocket
+0   2606   4   36   7927 13.9  HandleTCPSeg
+0    218   0   89    723  7.5  ICMPGet
+0    272   0   87   1247  7.7  ICMPPut
+0    224   0    6    203  2.0  SwapICMPPacket
+0     32   0    0    414  2.8  ARPInit
+0    150   0   11    511  8.0  ARPProcess
+0     66   0   12    101  3.1  ARPResolve
+0    138   0    6    251  3.8  ARPIsResolved
+0    248   0   34    809  7.6  ARPGet
+0    404   1   36   1689  7.9  ARPPut
+0    212   0    6    231  2.8  SwapARPPacket
+0     18   0    0    170  2.2  StackInit
+0    450   1    8   2650 10.8  StackTask
+0     40   0    0             @goto13475
+0     26   0    0    333  2.8  MACAddrInit
+0     48   0    0    751  2.9  IPAddrInit
+0     24   0    0    163  2.7  ServerAddrInit
+0    282   0    6    990  8.1  TCPConnectedTask
+0    846   1    5   3677 11.0  MyTCPTask
+0     22   0    0             @const2176
+0     32   0    2             @PSTRINGC_753
+0     22   0    0             @const2178
+0     22   0    0             @const2179
+0     22   0    0             @const2180
+0     20   0    0             @const2181
+0     20   0    0             @const2182
+0     42   0    0             @goto13662
+0     28   0    0     84  1.6  TIMER1_isr
+0     52   0    2    176  4.4  EXT_isr
+0     50   0    2    176  4.4  EXT1_isr
+0   2914   4    5   7854 12.9  main
+0     12   0    0             @const2205
+0     16   0    0             @const2207
+0     42   0    3             @PSTRINGCN_753
+0     44   0    3             @DIV88
+0    134   0    2             @PRINTF_U_753
+0    206   0    6             @PRINTF_D_753
+0     12   0    0             @const2219
+0     18   0    0             @const2220
+0     18   0    0             @const2221
+0     32   0    0             @const2222
+0     40   0    0             @const2223
+0     26   0    0             @MEMSET
+0      2   0    0             @const2228
+0     22   0    0             @const2231
+0     32   0    0             @const2232
+0    204   0    6             @PRINTF_D0_753
+0     32   0    0             @const2236
+0     22   0    0             @const2237
+0     22   0    0             @const2238
+0     22   0    0             @const2239
+0    168   0    3    653  4.3  convertir_to_entero
+0    366   1    1   1217  3.9  fecha
+0     22   0    0             @const2243
+0    392   1    5    927  8.1  wiegand_read_card
+0     32   0    1             @SPRINTF
+0     70   0    2             @PRINTF_X_2246
+0     10   0    0             @const2251
+0     42   0    3             @PSTRINGCN_2246
+0     12   0    0     40  1.3  enviar_tcp
+0    992   1   18   1803  9.8  zeller
+0    206   0    0    723  5.2  sensores
+0     18   0    0             @const2264
+0     14   0    0             @const2265
+0     34   0    2             @PSTRINGC_2246
+0   1868   3   25   6447  5.5  ticket
+0     10   0    0             @const2275
+0     40   0    3             @PSTRINGCN_647
+0     36   0    2             @PSTRINGR_647
+0     26   0    0             @const2280
+0     32   0    2             @PSTRINGC_647
+0     20   0    0             @const2288
+0     58   0    0             @const2289
+0     38   0    0             @const2290
+0     32   0    0             @const2294
+0    188   0    6             @PRINTF_D0_647
+0     50   0    0             @const2301
+0     50   0    0             @const2302
+0     50   0    0             @const2303
+0     50   0    0             @const2304
+0     50   0    0             @const2306
+0     50   0    0             @const2307
+0     50   0    0             @const2308
+0     50   0    0             @const2309
+0     50   0    0             @const2310
+0     50   0    0             @const2311
+0     50   0    0             @const2312
+0     50   0    0             @const2313
+0     50   0    0             @const2314
+0     50   0    0             @const2315
+0     50   0    0             @const2316
+0     50   0    0             @const2317
+0     50   0    0             @const2318
+0     50   0    0             @const2319
+0     50   0    0             @const2320
+0     50   0    0             @const2321
+0     50   0    0             @const2322
+0     50   0    0             @const2323
+0     50   0    0             @const2324
+0     50   0    0             @const2325
+0     50   0    0             @const2326
+0     50   0    0             @const2327
+0     50   0    0             @const2328
+0     50   0    0             @const2329
+0     50   0    0             @const2330
+0     50   0    0             @const2331
+0     50   0    0             @const2332
+0     50   0    0             @const2333
+0     50   0    0             @const2334
+0     50   0    0             @const2335
+0     50   0    0             @const2336
+0     50   0    0             @const2337
+0     50   0    0             @const2338
+0     50   0    0             @const2339
+0     50   0    0             @const2340
+0     50   0    0             @const2341
+0     50   0    0             @const2342
+0     50   0    0             @const2343
+0     50   0    0             @const2344
+0     50   0    0             @const2345
+0     50   0    0     25  1.2  @const2346
+0     50   0    0             @const2347
+0     50   0    0     25  1.2  @const2348
+0     50   0    0             @const2349
+0     50   0    0    666  2.8  @const2350
+0     50   0    0             @const2351
+0     50   0    0             @const2352
+0     50   0    0             @const2353
+0     50   0    0             @const2354
+0     50   0    0    563  2.4  @const2355
+0     22   0    0             @const2358
+0     48   0    0   1008  5.3  @const2360
+0     48   0    0   1923  9.8  @const2361
+0     44   0    0    485  7.1  @const2363
+0     48   0    0    118  2.5  @const2364
+0     12   0    0     25  1.2  LF
+0    174   0    2    666  2.8  barra1
+0      4   0    0    666  2.8  @const2373
+0      4   0    0    666  2.8  @const2374
+0      4   0    0    563  2.4  @const2378
+0      4   0    0    563  2.4  @const2379
+0    718   1   18   1923  9.8  llaves
+0     54   0    0   1923  9.8  @goto14554
+0    192   0    5    485  7.1  rd_eeprom
+0     46   0    0    118  2.5  reset
+ Inline         0    118  2.5  @cinit1
+
+Program metrics:
+    Functions               122
+    Statements              2439
+    Comments                7995
+    Volume (V)              194440
+    Difficulty (D)          650.5
+    Effort to implement (E) 126488260
+    Time to implement (T)   1951 hours, 59 minutes
+    Est Delivered Bugs (B)  84
+    Cyclomatic Complexity   344
+    Maintainability (MI)    82
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     2  2  
+00008-000D0   202  0  
+000D2-0FFFE  33656  31670  
+
+
+

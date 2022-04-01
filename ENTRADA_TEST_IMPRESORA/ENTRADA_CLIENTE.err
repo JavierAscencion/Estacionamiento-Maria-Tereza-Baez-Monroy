@@ -1,0 +1,39 @@
+>>> Warning 215 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\tcpip\stacktsk.c" Line 109(5,21): Undefined identifier   STACK_USE_BASE64
+>>> Warning 240 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\tcpip\arp.c" Line 107(18,24): Pointer types do not match
+>>> Warning 240 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\tcpip\arp.c" Line 215(18,24): Pointer types do not match
+>>> Warning 215 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\tcpip\stacktsk.c" Line 202(5,21): Undefined identifier   STACK_USE_BASE64
+>>> Warning 240 "ENTRADA_CLIENTE.c" Line 534(48,49): Pointer types do not match
+>>> Warning 240 "ENTRADA_CLIENTE.c" Line 534(96,97): Pointer types do not match
+>>> Warning 240 "ENTRADA_CLIENTE.c" Line 535(50,51): Pointer types do not match
+>>> Warning 240 "ENTRADA_CLIENTE.c" Line 535(98,99): Pointer types do not match
+>>> Warning 240 "ENTRADA_CLIENTE.c" Line 536(50,51): Pointer types do not match
+>>> Warning 240 "ENTRADA_CLIENTE.c" Line 536(99,100): Pointer types do not match
+>>> Warning 240 "ENTRADA_CLIENTE.c" Line 537(51,52): Pointer types do not match
+>>> Warning 240 "ENTRADA_CLIENTE.c" Line 537(100,101): Pointer types do not match
+>>> Warning 240 "ENTRADA_CLIENTE.c" Line 539(52,53): Pointer types do not match
+>>> Warning 240 "ENTRADA_CLIENTE.c" Line 539(100,101): Pointer types do not match
+>>> Warning 240 "ENTRADA_CLIENTE.c" Line 540(50,51): Pointer types do not match
+>>> Warning 240 "ENTRADA_CLIENTE.c" Line 540(98,99): Pointer types do not match
+>>> Warning 240 "ENTRADA_CLIENTE.c" Line 541(50,51): Pointer types do not match
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 44(11,19): Variable never used:   tag_size
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 45(11,24): Variable never used:   word_size_reg
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 46(13,20): Variable never used:   lim_reg
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 47(13,29): Variable never used:   data_numbers_ext
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 50(26,36): Variable never used:   tcp_recibe
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 50(49,61): Variable never used:   falla_grabar
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 50(62,69): Variable never used:   f_graba
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 52(13,20): Variable never used:   c_envia
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 53(17,28): Variable never used:   con_activas
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 54(18,21): Variable never used:   dir
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 66(17,22): Variable never used:   tecla
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 73(7,12): Variable never used:   folio
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 74(11,16): Variable never used:   idbar
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 82(9,12): Variable never used:   en2
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 82(13,16): Variable never used:   en3
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 82(21,24): Variable never used:   en5
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 118(6,12): Variable never used:   boleto
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 119(6,13): Variable never used:   barrera
+>>> Warning 202 "E:\Google Drive\01 ESTACIONAMIENTOS\CENTRO_NUEVO\ENTRADA_TEST_IMPRESORA\Plantilla_Inicio.c" Line 121(7,15): Variable never used:   time_lcd
+      Memory usage:   ROM=47%      RAM=69% - 75%
+      0 Errors,  36 Warnings.
+Build Successful.

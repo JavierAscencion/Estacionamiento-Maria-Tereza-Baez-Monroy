@@ -1,0 +1,102 @@
+[Directories]
+Include=
+Library=
+LinkerScript=
+output=
+
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+buildcount=8
+
+[fileformats]
+forcecoff=1
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=0
+tre=0
+expandtree=0
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+
+[PROJECT]
+Target=SALIDA_CLIENTE.hex
+Development_Mode=
+Processor_Text=PIC18F4680
+ToolSuite=CCS
+CCSVersion=5.070
+Compiler=PCH
+
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+FileList=SALIDA_CLIENTE.c
+
+[SALIDA_CLIENTE.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=SALIDA_CLIENTE.c
+
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+
+
+[CompilerVersion]
+Fixed=
+
+[ProjectLog]
+Days=2
+D1=19-06-2018
+D1_L=15
+D1_L1=[30434]Project Closed.
+D1_L2=[30434]Project Opened.
+D1_L3=[30504]Started Editing.
+D1_L4=[30535]Stopped Editing.
+TotalEdit=8
+TotalDebug=0
+D1_E=4
+D1_D=0
+D1_L5=[30535]Project Closed.
+D1_L6=[31341]Project Opened.
+D1_L7=[31409]Started Editing.
+D1_L8=[31508]Stopped Editing.
+D1_L9=[31509]Project Closed.
+D1_L10=[34868]Project Opened.
+D1_L11=[34883]Started Editing.
+D1_L12=[35184]Stopped Editing.
+D1_L13=[36632]Project Closed.
+D1_L14=[39324]Project Opened.
+D1_L15=[39438]Project Closed.
+D2=20-06-2018
+D2_L=4
+D2_L1=[30349]Project Opened.
+D2_L2=[30366]Started Editing.
+D2_L3=[30578]Stopped Editing.
+D2_E=4
+D2_D=0
+D2_L4=[30578]Project Closed.
+
+[Opened Files]
+1=SALIDA_CLIENTE.c
+t1=94
+Count=2
+2=Plantilla_Inicio.c
+t2=1
+[Units]
+Count=1
+1=SALIDA_CLIENTE (main)
